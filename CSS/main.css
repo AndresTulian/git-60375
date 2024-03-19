@@ -1,0 +1,38 @@
+/* RESET */ 
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+/* estilos generales */ 
+
+body{
+    color: #2B2B2B ;
+    background-color: #E6E6DD ;
+}
+
+/* Estilos de header */ 
+header{
+    background-color: #2B2B2B;
+    color:#E6E6DD ;
+    margin: 0px 50px;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    width:20% ;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+
+}
